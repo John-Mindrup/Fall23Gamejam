@@ -1,0 +1,113 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 1
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000000 L
+  2 _Alphabet                                                      000B00 GR
+  1 _Bkg_Chars                                                     000022 GR
+  1 _Bouncer                                                       000017 GR
+  1 _Box                                                           00000B GR
+  2 _ClubCharacterSprites                                          0013BE GR
+  2 _ClubFront                                                     0007F0 GR
+    _DIV_REG                                                       ****** GX
+  1 _Dance_Master                                                  00007A GR
+  0 _Destroy_Bouncer                                               0002DF GR
+  0 _Destroy_Box                                                   0001C4 GR
+  0 _Destroy_Character                                             0000A8 GR
+  2 _EmptyMap                                                      000CBB GR
+  0 _EndScreen                                                     000A56 GR
+  2 _EndScreenMap                                                  0015FE GR
+  2 _GameOverMap                                                   0010D3 GR
+  2 _In_Loading_Screen                                             001690 GR
+    _LCDC_REG                                                      ****** GX
+  2 _LevelOneTutorialMap                                           0010BB GR
+  2 _LevelTwoMapA                                                  0010EE GR
+  2 _LevelTwoMapB                                                  001256 GR
+  2 _LevelTwoStartMap                                              0010DC GR
+  2 _LevelTwoTutorial                                              00162A GR
+  2 _MainCharacterFull                                             000970 GR
+  2 _MainCharacterFullMap                                          000958 GR
+  2 _MoveCooldown                                                  001692 GR
+  0 _Move_Bouncer                                                  0001ED GR
+  0 _Move_Box                                                      0000D1 GR
+  0 _Move_Character                                                000000 GR
+  1 _Player                                                        000000 GR
+  2 _PlayerState                                                   001691 GR
+  2 _PressStartMap                                                 000CB0 GR
+  0 _Run_Bouncer                                                   00030F GR
+  2 _SpriteSet                                                     000420 GR
+  2 _Tileset                                                       000000 GR
+    __modsint                                                      ****** GX
+  7 __xinit__Alphabet                                              000B00 R
+  7 __xinit__ClubCharacterSprites                                  0013BE R
+  7 __xinit__ClubFront                                             0007F0 R
+  7 __xinit__EmptyMap                                              000CBB R
+  7 __xinit__EndScreenMap                                          0015FE R
+  7 __xinit__GameOverMap                                           0010D3 R
+  7 __xinit__In_Loading_Screen                                     001690 R
+  7 __xinit__LevelOneTutorialMap                                   0010BB R
+  7 __xinit__LevelTwoMapA                                          0010EE R
+  7 __xinit__LevelTwoMapB                                          001256 R
+  7 __xinit__LevelTwoStartMap                                      0010DC R
+  7 __xinit__LevelTwoTutorial                                      00162A R
+  7 __xinit__MainCharacterFull                                     000970 R
+  7 __xinit__MainCharacterFullMap                                  000958 R
+  7 __xinit__MoveCooldown                                          001692 R
+  7 __xinit__PlayerState                                           001691 R
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 2
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  7 __xinit__PressStartMap                                         000CB0 R
+  7 __xinit__SpriteSet                                             000420 R
+  7 __xinit__Tileset                                               000000 R
+  7 __xinit__spriteIndex                                           00168F R
+  7 __xinit__tilesetIndex                                          00168E R
+  0 _animateDancing                                                0009FE GR
+  0 _animatePlayer                                                 000646 GR
+  0 _checkInput                                                    000982 GR
+  0 _danceOff                                                      000A88 GR
+  0 _gameover                                                      0009CC GR
+  0 _init                                                          000915 GR
+  0 _init_bouncer                                                  000572 GR
+  0 _init_cardboard                                                000516 GR
+  0 _init_character                                                00045A GR
+  0 _init_player                                                   0003D7 GR
+    _initrand                                                      ****** GX
+    _joypad                                                        ****** GX
+  0 _level_one_init                                                000786 GR
+  0 _level_two_init                                                000808 GR
+  0 _main                                                          000D0B GR
+    _rand                                                          ****** GX
+    _set_bkg_data                                                  ****** GX
+    _set_bkg_tiles                                                 ****** GX
+    _set_sprite_data                                               ****** GX
+    _set_win_data                                                  ****** GX
+    _set_win_tiles                                                 ****** GX
+    _shadow_OAM                                                    ****** GX
+  2 _spriteIndex                                                   00168F GR
+  2 _tilesetIndex                                                  00168E GR
+  0 _updateSwitches                                                0003D0 GR
+    _wait_vbl_done                                                 ****** GX
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 3
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size    D8B   flags    0
+   1 _DATA                                      size     85   flags    0
+   2 _INITIALIZED                               size   1693   flags    0
+   3 _DABS                                      size      0   flags    8
+   4 _HOME                                      size      0   flags    0
+   5 _GSINIT                                    size      0   flags    0
+   6 _GSFINAL                                   size      0   flags    0
+   7 _INITIALIZER                               size   1693   flags    0
+   8 _CABS                                      size      0   flags    8
+
